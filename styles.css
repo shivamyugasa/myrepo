@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto; /* Ensure content is scrollable */
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px; /* Add padding to ensure content fits within the viewport */
+}
+
+.profile-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 40px; /* Adjusted padding */
+    width: 100%; /* Full width */
+    max-width: 600px; /* Adjusted max-width for larger screens */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    overflow: auto; /* Make sure the content is scrollable */
+}
+
+.profile-image img {
+    width: 150px; /* Adjusted size */
+    height: 150px; /* Adjusted size */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4CAF50; /* Thicker border */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+h1 {
+    font-size: 30px; /* Adjusted font size */
+    margin-top: 15px; /* Adjusted margin */
+    color: #333;
+}
+
+.designation {
+    font-size: 18px; /* Adjusted font size */
+    color: #777;
+    margin: 10px 0; /* Adjusted margin */
+}
+
+.profile-info {
+    font-size: 16px; /* Adjusted font size */
+    color: #666;
+    margin: 10px 0; /* Adjusted margin */
+}
+
+.profile-info a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.follow-me {
+    margin-top: 20px; /* Space above the social links */
+}
+
+.follow-me h2 {
+    font-size: 20px; /* Font size for the heading */
+    color: #333;
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size */
+    padding: 10px 20px; /* Adjust padding for longer buttons */
+    color: white; /* Text color */
+    display: inline-block;
+    border-radius: 50px; /* Rounded corners */
+    text-align: center; /* Center text */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.linkedin {
+    background-color: #0077B5;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.whatsapp-button {
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.whatsapp {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px; /* Adjusted padding */
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px; /* Adjusted font size */
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width */
+}
+
+.whatsapp:hover {
+    background-color: #1EBE5A;
+}
+
